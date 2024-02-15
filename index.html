@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<style>
+			#nickname {
+                border: 1px solid;
+                border-radius: 10px;
+                width: 250px;
+                padding: 5px;
+            }
+
+            #search {
+                border: 0;
+                border-radius: 10px;
+                background: #4F80FF;
+                color: #FFF;
+                padding: 5px;
+                margin-top: 5px;
+                cursor: pointer;
+            }
+		</style>
+
+		<title>Userch</title>
+	</head>
+	<body>
+		<h1>Userch</h1>
+        <p>엔트리 유저 찾기</p>
+        <form id="form" action="https://playentry.org/us" target="_blank">
+            <input type="text" id="nickname" name="query" placeholder="유저 닉네임을 입력하세요" required>
+            <input type="hidden" name="tag" value="user">
+            <br>
+            <button type="submit" id="search">검색</button>
+        </form>
+	</body>
+</html>

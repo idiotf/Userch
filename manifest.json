@@ -1,0 +1,15 @@
+{
+	"name": "Userch",
+	"description": "엔트리 유저 찾기",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [
+		{
+			"matches": ["https://playentry.org/us?query=*&tag=user", "https://www.playentry.org/us?query=*&tag=user"],
+			"js": ["index.js"]
+		}
+	],
+	"action": {
+		"default_popup": "index.html"
+	}
+}
