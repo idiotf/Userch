@@ -1,7 +1,7 @@
 {
 	"name": "Userch",
 	"description": "엔트리 유저 찾기",
-	"version": "1.0",
+	"version": "0.1",
 	"manifest_version": 3,
 	"content_scripts": [
 		{
